@@ -1,9 +1,9 @@
 {
-  "name": "@matterlabs/hardhat-zksync-deploy",
-  "version": "0.6.5",
+  "name": "@poohnet/hardhat-zksync-deploy",
+  "version": "0.6.11",
   "description": "Hardhat plugin to deploy smart contracts into the zkSync network",
-  "repository": "github:matter-labs/hardhat-zksync",
-  "homepage": "https://github.com/matter-labs/hardhat-zksync/tree/main/packages/hardhat-zksync-deploy",
+  "repository": "github:poohgithub/hardhat-zksync",
+  "homepage": "https://github.com/poohgithub/hardhat-zksync/tree/main/packages/hardhat-zksync-deploy",
   "author": "Matter Labs",
   "license": "MIT",
   "main": "dist/index.js",
@@ -32,7 +32,7 @@
     "README.md"
   ],
   "dependencies": {
-    "@matterlabs/hardhat-zksync-solc": "0.4.2",
+    "@poohnet/hardhat-zksync-solc": "0.4.5",
     "chalk": "4.1.2",
     "ts-morph": "^19.0.0"
   },
