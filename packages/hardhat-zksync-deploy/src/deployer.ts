@@ -204,6 +204,8 @@ export class Deployer {
         });
         await contract.deployed();
 
+        console.info("Deployer: Contract deployed at address: %s", contract.address);
+
         return contract;
     }
 
