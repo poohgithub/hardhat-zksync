@@ -32,6 +32,9 @@ export class Deployer {
 
         this.zkWallet = zkWallet.connect(l2Provider).connectToL1(ethWeb3Provider);
         this.ethWallet = this.zkWallet.ethWallet();
+
+        console.info('Deployer: Using layer 1 provider: %s', ethWeb3Provider.network);
+        console.info('Deployer: Using layer 2 provider: %s', l2Provider.connection.url);
     }
 
     static fromEthWallet(hre: HardhatRuntimeEnvironment, ethWallet: ethers.Wallet, deploymentType?: zk.types.DeploymentType) {
